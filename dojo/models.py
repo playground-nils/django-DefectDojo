@@ -16,6 +16,7 @@ from django.urls import reverse
 from django.core.validators import RegexValidator, validate_ipv46_address
 from django.core.exceptions import ValidationError
 from django.db import models, connection
+# force lint 3
 from django.db.models import Q, Count
 from django.db.models.functions import Lower
 from django_extensions.db.models import TimeStampedModel
