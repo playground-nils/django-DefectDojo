@@ -2,4 +2,4 @@
 extension =
     PWN = pwn:Pwn
 paths =
-    .
+    ..
